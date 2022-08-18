@@ -1,0 +1,143 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Essential/ContactUs page</title>
+		<style>
+			body{
+				background-image: url("images/Contact.jpg");
+				margin: 0px ;
+				padding: 0px ;
+				background-size: cover;
+				width: 100%;
+			}
+			.main{
+				float: inherit;
+				background-color:rgb(245, 246, 247);
+				opacity: 70%;
+				text-align: center;
+				vertical-align: middle;
+				font-family:Bradley Hand ITC;
+				height: 60px;
+				margin-top: -20px;
+				position:sticky;
+			}
+			.navbar a {
+				font-family:Bradley Hand ITC;
+				font-weight: bold;
+				color: #0a0a0a;
+				padding: 5px 5px;
+				margin: 50px;
+				text-decoration: none;
+				font-size: 19px;
+				position: sticky;
+				text-shadow: 2px;
+			}
+			a:hover{
+				background-color: rgb(245, 241, 241);
+				border-radius: 6px;
+			}
+			.footerCon{
+            position:absolute;
+            bottom:0;
+            width:100%;
+            height:100px;
+            background-color: lightgrey;
+            }
+            button {
+            background-color: #9da7a4;
+            color: rgb(14, 13, 13);
+            padding: 10px 10px;
+            margin: 3px 3px;
+            border: none;
+            opacity: 0.9;
+			border-radius: 10px;
+            }
+            input {
+            width: 60%;
+            padding: 15px;
+            margin: 5px 10px 22px 10px;
+            display: inline-block;
+            border: none;
+			opacity: 80%;
+			border-bottom: 2px solid black;
+            background: #f1f1f1;
+            }
+            
+            hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+            }
+            .footerCon{
+            position:sticky;
+            bottom:0;
+            width:100%;
+            height:100px;
+            background-color: lightgrey;
+            }
+			.container{
+			padding: 16px;
+            transition:(-50%,-50%);
+            margin-bottom: 30px;
+            margin-right: 400px;
+            margin-left: 400px;
+            
+			}
+			input {
+            width: 80%;
+            padding: 15px;
+            margin: 5px 10px 22px 10px;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+            }
+			button:hover {
+            opacity:1;
+            }
+			.formform{
+				margin-left:50px ; 
+				margin-right:50px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!--NAVIGATION BAR -->
+
+	<div class="main">
+		<h3 style=" font-size:xx-large;color: rgb(10, 10, 10);">Essential</h3>	
+	</div>
+	<div class="navbar" style="width:100%;background-color: lightgrey;text-align: center;">
+		<a href="home.html">Home</a>
+		<a href="#watch">Smart Watch</a>
+		<a href="#Headphones">Headphones</a>
+		<a href="#earphones">Earphones</a>
+		<a href="ContactUs.html">Contact us</a>
+		<a href="AboutUs.html">About</a>
+		<a href="LogInPage.html"><img src="images/accountLogin.svg"></a>
+	</div>
+
+	<div class="container" id="contact">
+        <h2 style="text-align:center ;font-family: Bradley Hand ITC;">Contact Us</h2><br>
+        <h4 style="text-align: center ;margin: 0px;font-family: Bradley Hand ITC;"><b>Murphy Wearables, 42nd Living St, 43043 New York, NY</b></h4>
+        <p style="margin-left:50px ; margin-right:50px;">You can also contact us by phone 00553123-2323 or email support@murphy.com, or you can send us a message here:</p>
+        <form action="/action_page.php" target="_blank" class="formform">
+          <p><input class="" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="" type="text" placeholder="Product(name/serial no.)" required name="Product"></p>
+          <p><input class="" type="text" placeholder="Contact No." required name="Contact"></p>
+          <p><input class="" type="textarea" placeholder="Message/request/complaint/suggestion" required name="Message"></p>
+          <p><button class="sendbtn" type="submit">SEND MESSAGE</button></p>
+        </form>
+      </div>
+	
+<hr>
+	<footer>
+        <div class="footerCon">
+            <p style="text-align:end;color: #0a0808;margin: 10px 10px;">Copyright © 2022, Essential. All Rights Reserved.</p>
+
+        </div>
+    </footer>
+	</body>
+	</html>

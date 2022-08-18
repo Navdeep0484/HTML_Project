@@ -1,0 +1,259 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Essential/Product</title>
+		<style>
+			
+			.main{
+			
+				background-color:black;
+				font-family:Bradley Hand ITC;
+				height: 60px;
+				margin-top: -10px;
+				margin-left: -8px;
+				margin-right: -8px;
+			}
+			.navbar a {
+				font-family:Bradley Hand ITC;
+				font-weight: bold;
+				color: white;
+				padding: 5px 5px;
+				margin: 10px;
+				text-decoration: none;
+				font-size: 19px;
+			
+			}
+			
+			
+			.footerCon{
+            display: inline-block;
+            bottom:0;
+            width:100%;
+            height:100px;
+            background-color: lightgrey;
+			margin: 0px;
+			
+            }
+			section{
+				margin-left: 220px;
+				padding: 20px;
+				width:1000px;
+				height: 400px;	
+				display: inline-block;
+			}
+			.bestsellers{
+				width: 100%;
+				text-align: center;
+				font-size:x-large;
+				font-family:Bradley Hand ITC;
+				margin-top:50px ;
+				margin-bottom: 30px;
+			}
+			a:hover{
+				border: none ;
+				border-bottom : 2px solid lightgrey;
+			}
+			td img{
+				
+				width: 200px;
+				height: 180px;
+				margin: 10px;
+				padding: 20px;
+			}
+			.BSproducts td{
+				border:none;
+				border-bottom: 2px solid lightgray;
+				border-right: 2px solid lightgray;
+				border-radius: 10px ;
+				color: gray;
+				margin-bottom: 5px;
+							}
+			hr{
+				size: 2px;
+				color: gray;
+				width: 80%;
+				margin-top: 100px;
+			}
+			.foot{
+				font-family:Bradley Hand ITC;
+				margin-top: 10px;
+				margin-left: 60px;
+				
+			}
+			#socialLinks img{
+				margin-top: -10px;
+				margin-left: 10px;
+			}
+			.footerlinks{
+				margin: 50px 50px;
+			}
+			.footerlinks th{
+				text-align: left;
+				
+			}
+			.provides{
+				
+				margin: 20px 20px;
+			}
+			.prod{
+				margin-left: 150px;
+				margin-top: 80px;
+				margin-bottom: 50px;
+				margin-right: 40px;
+			}
+			.prod p{
+				margin-left: 70px;
+			}
+			section{
+				display: flex;
+				position: left;
+				
+			}
+			button{
+				color: white;
+				width: 260px;
+				padding: 16px 30px;
+				border: none;
+				font-weight: 800;
+				font-size: 14px;
+				text-align: center;
+				letter-spacing: 1.5px;
+				text-transform: uppercase;
+				background-color: blue;
+			}
+			
+		
+
+		</style>
+	</head>
+	<body>
+		<!--NAVIGATION BAR -->
+	<div class="main">
+		<h3 style=" font-size:xx-large;color: whitesmoke; margin: 10px;padding-top: 8px;">"essential"</h3>	
+	</div>
+	<div class="navbar" style="width:101% ;background-color: black; margin-left: -8px; padding-bottom: 3px;">
+		<div style="margin-left: 650px;margin-bottom: 5px;">
+			<a href="home.html">Home</a>
+			<a href="#watch">Smart Watch</a>
+			<a href="#Headphones">Headphones</a>
+			<a href="#earphones">Earphones</a>
+			<a href="ContactUs.html">Contact us</a>
+			<a href="AboutUs.html">About</a>
+			<a href="LogInPage.html"><img src="images/accountLogin.svg"></a>>
+
+		</div>
+	</div>
+	<section>
+	<div class="prod">
+		<img id="jsimg"src="images/productpage/pro1.webp" width=400px height=400px onclick="changeImage()">
+	<p style="color:grey; ">tap anywhere on the image to change the view</p>
+	</div>
+	<script>
+		function changeImage(){
+			var image = document.getElementById('jsimg');
+			if(image.src.match("images/productpage/pro1.webp")){
+				image.src= "images/productpage/pro2.webp"
+			}
+			else{
+				image.src="images/productpage/pro1.webp";
+			}
+			
+		}
+	</script>
+	<div class="prodata">
+		<h1 style="font-family:Bradley Hand ITC;font-size: xx-large;">Essen-Fit Pro</h1><br>
+		<p style="font-family:comic sans ms;font-size: large;margin: 0px;">Rating : 9.6/10</p><br>
+		<h3 style="font-family:Bradley Hand ITC;font-size: xx-large;margin: 0px;">Rs 1,999</h3><br>
+		<button>buy now</button><br>
+		<pre style="font-family: comic sans ms;"><b>Available Offers</b>
+
+			Get 5% discount with UPI, use code PREPAY
+			
+			FAQ
+			Flat Rs 100/- Cashback on minimum transaction 
+			of ₹2500/-from Mobikwik wallet through cashfree. <a>Learn more</a></pre>
+	</div>
+</section>
+	
+	<hr>
+
+
+
+	
+	
+	<div class="foot">
+		<h3 style=" font-size:xx-large;color: black; margin: 10px;padding-top: 8px;">"essential"</h3><br>
+		<div id="socialLinks">
+		<img src="images/links/fb.webp"><img src="images/links/youtube.webp"><img src="images/links/Instagram.webp">	
+	</div>
+</div>
+
+<div class="footerlinks">
+	<table style="width: 1000px; margin-left: 200px;" >
+		<tr>
+			<th>Our Products</th>
+			<th>Support</th>
+			<th>About Essential</th>
+			
+		</tr>
+		<tr >
+			<td>Smart Watches</td>
+			<td>FAQ</td>
+			<td>About Essential</td>
+			
+		</tr>
+		<tr >
+			<td>Wireless earphones </td>
+			<td>Download Your Invoice</td>
+			<td>Stories</td>
+			
+		</tr>
+		<tr >
+			<td>Accessories </td>
+			<td>Shipping and Returns</td>
+			<td>Careers</td>
+			
+		</tr>
+		<tr >
+			<td></td>
+			<td></td>
+			
+			
+		</tr>
+	</table>
+</div>
+
+
+<!--footer part -->
+	<footer>
+        <div class="footerCon">
+            <p style="text-align:end ;color: black ;margin: 10px 10px;">Copyright © 2022, Essential. All Rights Reserved.</p>
+
+        </div>
+    </footer>
+	</body>
+	</html>
+
+
+
+
+
+
+
+
+	<!--
+		scale tag is used for decreasing and increasing the size 
+		TRANSFORM - skew(20deg)[//gram]
+					rotateX(20deg),rotateY(20deg),rotateZ(20deg)
+
+		<img src="..." coords=(0,0,82,23) usemap=#idOf>
+
+			 
+
+
+
+
+	-->

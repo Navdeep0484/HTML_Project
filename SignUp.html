@@ -1,0 +1,158 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Essential/SignUp Page</title>
+		<style>
+			body{
+        background-image: url("images/signup.jpg");
+        margin: 0px ;
+        padding: 0px ;
+        background-size: cover;
+				width: 100%;
+			}
+            
+			.main{
+        opacity: 70%;
+				float: inherit;
+				background-color:rgb(245, 246, 247);
+				text-align: center;
+				vertical-align: middle;
+				font-family:Bradley Hand ITC;
+				height: 70px;
+				margin-top: -20px;
+				position:sticky;
+			}
+			.navbar a {
+				font-family:Bradley Hand ITC;
+				font-weight: bold;
+				color: #0a0a0a;
+				padding: 5px 5px;
+				margin: 50px;
+				text-decoration: none;
+				font-size: 19px;
+				position: sticky;
+				text-shadow: 2px;
+			}
+			a:hover{
+				background-color: rgb(245, 241, 241);
+				border-radius: 6px;
+			}
+			
+            * {box-sizing: border-box}
+
+            input {
+            width: 80%;
+            padding: 15px;
+            margin: 5px 10px 22px 10px;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+            }
+
+
+            hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+            }
+
+            button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 10px 10px;
+            margin: 0px;
+            border: none;
+            opacity: 0.9;
+            }
+
+            button:hover {
+            opacity:1;
+            }
+
+            .cancelbtn {
+           
+            background-color: #f44336;
+            }
+
+            .cancelbtn {
+            float:left;
+            width: 49%;
+            }
+            .signupbtn {
+            float:right;
+            width: 49%;
+            }
+            .SignUpForm {
+            padding: 16px;
+            transition:(-50%,-50%);
+            margin-bottom: 30px;
+            margin-right: 400px;
+            margin-left: 400px;
+            border-radius: 40px;
+            }
+            b{
+            font-family:Bradley Hand ITC ;
+            }
+            .formCon{
+                padding: 20px;
+                margin: 10px;
+            }
+            .footerCon{
+            position:absolute;
+            bottom:0;
+            width:100%;
+            height:100px;
+            background-color: lightgrey;
+            }
+
+		</style>
+	</head>
+	<body>
+		<!--NAVIGATION BAR -->
+	<div class="main">
+		<h3 style=" font-size:xxx-large;color: rgb(3, 3, 3);">Essential</h3>	
+	</div>
+	<div class="navbar" style="width:100%;background-color: lightgrey;text-align: center;">
+		<a href="home.html">Home</a>
+		<a href="#watch">Smart Watch</a>
+		<a href="#Headphones">Headphones</a>
+		<a href="#earphones">Earphones</a>
+		<a href="ContactUs.html">Contact us</a>
+		<a href="AboutUs.html">About</a>
+		<a href="LogInPage.html"><img src="images/accountLogin.svg"></a>
+	</div>
+	<div class="SignUpForm">
+	<form action="/action_page.php" >
+        
+          <h2 style="text-align:center ;font-family: Bradley Hand ITC;">Sign Up</h2>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+        <div class="formCon">
+          <label ><b>Email</b></label><br>
+          <input type="text" placeholder="8nvdeep@murphy" name="email" required><br>
+      
+          <label ><b>Password</b></label><br>
+          <input type="password" placeholder="Enter Password" name="pass" required><br>
+      
+          <label for="repeatP"><b>Repeat Password</b></label><br>
+          <input type="password" placeholder="Repeat Password" name="repeatP" required><br>
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        </div>
+          <div class="buttons">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        
+      </form>
+		</div>
+	
+	<footer>
+        <div class="footerCon">
+            <p style="text-align:end;color: #0a0808;margin: 10px 10px;">Copyright © 2022, Essential. All Rights Reserved.</p>
+
+        </div>
+    </footer>
+	</body>
+	</html>
